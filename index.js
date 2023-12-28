@@ -84,7 +84,7 @@ const elencoAlbum = document.querySelector(".elenco-musica")
 
 
 const creaLista = function() {
-   const gruppo = document.querySelectorAll(".band")
+   // const gruppo = document.querySelectorAll(".band")
    const allAlbum = document.querySelectorAll(".album-title")
    for (let i = 0; i < allAlbum.length; i++) {
       elencoAlbum.innerHTML += `<li> ${allAlbum[i].textContent} </li> `
